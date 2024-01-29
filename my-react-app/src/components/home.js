@@ -4,6 +4,15 @@ import Section from './section';
 function home() {
   return (
     <Container>
+        <Section
+        title="Model S"
+        description ="order online for touchless delivery"
+        backgroundImg="model-s.jpg"
+        leftBtnText = "Custom order"
+        rightBtnText = "Exsting inventory"
+        />
+        <Section />
+        <Section />
         <Section />
     </Container>
   )
